@@ -1,0 +1,20 @@
+#!/bin/sh /etc/rc.common
+# Copyright (C) 2013 dazzyd.org
+ 
+START=96
+mentohust=/usr/local/sbin/mentohust
+ 
+start() {
+    $mentohust -neth1 -u{USERNAME} -p{PASSWORD} \
+        -v4.44 -a1 -d2 -c/usr/local/lib/mentohust/dhcp-{DHCPTYPE}.sh \
+        -l0 -y0 -b3
+}
+ 
+stop() {
+    $mentohust -k
+}
+ 
+restart() {
+    stop
+    start
+}
