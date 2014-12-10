@@ -19,4 +19,4 @@ Mentohust scripts on Openwrt.
 ## dhcp-afterwards.sh
     description:    Mentohust DHCP script for rebind IP after authentication.
     localtion:      /usr/local/lib/mentohust/dhcp-afterwards.sh
-    configuration:  {REAL_IP} => Real IP after authentication, obtained elsewhere.
+    configuration:  {REAL_IP} => Real IP after authentication, obtained elsewhere. Can be incomplete. e.g. '172.16.'

@@ -11,7 +11,7 @@ start() {
 }
  
 stop() {
-    $mentohust -k
+    killall mentohust
 }
  
 restart() {
