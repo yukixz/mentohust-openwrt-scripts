@@ -1,5 +1,7 @@
-mentohust-openwrt-scripts
+mentohust-openwrt-scripts (Deprecated)
 =========================
+
+**This repo was deprecated due to not using openwrt.**
 
 Mentohust scripts on Openwrt.
 
